@@ -1,10 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --rojo: red;
+  --negro: black;
+  --azul: blue;
+  --rosado:pink;
+  --blanco:white;
+  --verde:green;
+
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif; 
 }
 
-.button{
-  
-  place-content: center;
+.boton{
+  background-color: blueviolet;
+  padding: 12px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  border: solid 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boton.border{
+  background-color: #fff;
+  border: solid 1px blueviolet ;
+  color: blueviolet;
+}
+
+.boton:hover{
+  background-color: #fff;
+  color: blueviolet;
+  border: solid 1px blueviolet;
+}
+
+.boton__texto{
+  color: #fff;
+}
+
+.boton__icono{
+  color: #fff;
 }
