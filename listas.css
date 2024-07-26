@@ -1,0 +1,16 @@
+.lista{
+  width: 450px;
+  background-color: yellow;
+  border-bottom: solid;
+}
+
+.lista_item{
+  border-bottom: 2px solid black;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 25px;
+}
+
+.lista_texto{}
+
+.lista_icono{}
