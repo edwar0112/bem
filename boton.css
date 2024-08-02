@@ -1,0 +1,34 @@
+
+.boton--celeste{
+  background-color: var(--celeste);
+}
+.boton--negro{
+  background-color: var(--negro);
+}
+.boton--rosado{
+  background-color: var(--rosado);
+}
+.boton--marron{
+  background-color: var(--marron);
+}
+.boton--rojo{
+  background-color: var(--rojo);
+}
+.boton--azul{
+  background-color: var(--azul);
+}
+.boton--verde{
+  background-color: var(--verde);
+}
+.boton--morado{
+  background-color: var(--morado);
+}
+
+.boton__texto{
+  color: #fff;
+}
+
+.boton__icono{
+  color: #fff;
+
+}
