@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
-  --celeste:skyblue;
-  --negro: black;
-  --rosado:pink;
-  --amarillo:yellow;
-  --rojo: red;
-  --azul: blue;
-  --verde:green;
-  --morado:purple;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -20,25 +9,25 @@
 
 .boton{
   background-color: blueviolet;
-  padding: 12px;
+  padding: 20px;
   background-color: blueviolet;
   margin: 0 auto;
   border: solid 1px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 13px;
-  font-size: 12px;
-  font-weight: 300;
-  color: #fff;
+  font-size: 25px;
+  font-weight: 300px;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .boton.border{
-  background-color: #fff;
   border: solid 1px blueviolet ;
+  background-color: #fff;
   color: blueviolet;
 }
 
@@ -49,47 +38,8 @@
 }
 
 .boton:hover{
+  border: solid 1px blueviolet;
   background-color: #fff;
   color: blueviolet;
-  border: solid 1px blueviolet;
-}
 
-
-
-.boton--celeste{
-  background-color: var(--celeste);
-}
-.boton--negro{
-  background-color: var(--negro);
-}
-.boton--rosado{
-  background-color: var(--rosado);
-}
-.boton--amarillo{
-  background-color: var(--amarillo);
-}
-.boton--rojo{
-  background-color: var(--rojo);
-}
-.boton--azul{
-  background-color: var(--azul);
-}
-.boton--verde{
-  background-color: var(--verde);
-}
-.boton--morado{
-  background-color: var(--morado);
-}
-
-
-.boton__texto .boton--negro{
-  color: black;
-}
-.boton__texto .boton--rosado{
-  color: pink;
-}
-
-
-.boton__icono{
-  color: #fff;
 }
